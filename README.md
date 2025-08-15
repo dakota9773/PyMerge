@@ -23,17 +23,17 @@ The PyMerge repository includes both the standalone executable and development r
 ## Code Overview
 PyMerge operates in three sequential modules: **Merge**, **Bin**, and **Graph**.
 ### Merge
-- User selects a parent directory containing subfolders of CSV-style sensor files.
+- User selects a parent directory containing subfolders of CSV-style files.
 - The software scans each subfolder (excluding `/exports`) and merges all readable files into a single long-format `pandas` DataFrame.
 - A `Dataset` column is added to track subfolder origin.
-- Output is saved to `/directory/exports/merged_data.xlsx`; the `exports` folder is created if missing.
+- Output is saved to `/directory/exports/merged_data.csv`; the `exports` folder is created if missing.
 ### Bin
-- Users select a merged file if it isn't uploaded from a previous merge and define a binning interval (e.g. 5 minutes).
+- Users select a merged file if it isn't uploaded from a previous merge and define a binning interval.
 - Activity columns (`Act[0]`–`Act[5]`) are expanded into minute-level records.
 - Other variables (`T`, `Light`, `Vbat`) are preserved.
 - Data is grouped by `Dataset` and floored to time intervals, then aggregated using preset rules.
 - Activity is scaled to percent via a weighted formula.
-- Output is saved to `/directory/exports/binned_interval.xlsx`.
+- Output is saved to `/directory/exports/binned_interval.csv`.
 ### Graph
 - Two workflows: **Single Dataset** and **Multiple Dataset**.
 - Users select datasets and columns to visualize.
@@ -44,5 +44,9 @@ PyMerge operates in three sequential modules: **Merge**, **Bin**, and **Graph**.
 ## Example Data
 Sample input and output files are available in the `examples/` folder to demonstrate expected input formats and results.
 ## License
-To be determined after meeting with group.
+To be determined after meeting with the group.
+## Support
+Please email Dakota.nipper@nih.gov or Dakota.nipper97@gmail.com for support with this software
+## Known Issues
+Some browsers will flag the executable file (PyMerge.exe) as unsafe because it is not widely used or known. Please follow your browser's directions for marking the download as safe. 
 
