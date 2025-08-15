@@ -45,4 +45,6 @@ PyMerge operates in three sequential modules: **Merge**, **Bin**, and **Graph**.
 Sample input and output files are available in the `examples/` folder to demonstrate expected input formats and results.
 ## License
 To be determined after meeting with the group.
+## More information
+Some browsers will flag the executable file (PyMerge.exe) as unsafe because it is not widely used or known. Please follow your browser's directions for marking the download as safe. 
 
