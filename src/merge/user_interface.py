@@ -42,7 +42,7 @@ class MergePanel(QGroupBox):
         layout = QVBoxLayout(self)
         #Directions
         layout.addWidget(QLabel(
-            "Select master folder containing sub-folders of Pallidus files:",
+            "Select master folder containing sub-folders",
             self
         ))
 

@@ -1,0 +1,10 @@
+requirements.txt
+
+# PyMerge runtime dependencies
+# These packages are required to run the source code (not the executable)
+# Tested with Python 3.11 on Windows 10+
+
+PyQt6==6.9.1         # GUI framework
+pandas==2.3.1        # Data handling
+numpy==2.3.2         # Numerical operations
+plotly==6.3.0        # Interactive graph generation

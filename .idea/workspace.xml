@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9850b48a-95b1-4ca5-8c35-59df1e54429d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PyMerge.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bin/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bin/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bin/user_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bin/workers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/user_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/graph/workers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/merge/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/merge/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/merge/user_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/merge/workers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_bin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/merge/user_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/merge/user_interface.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dakota9773"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dakota9773/PyMerge.git",
+    "accountId": "4a49c551-4c41-47a0-8b21-f74b6e91f7a3"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>

@@ -12,7 +12,7 @@ from graph.user_interface import GraphSettingsPanel, GraphDisplayPanel
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Pallidus Analysis")
+        self.setWindowTitle("PyMerge")
         self.resize(1550, 800)
 
         # central layout
