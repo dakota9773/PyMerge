@@ -1,8 +1,9 @@
 import sys
 from PyQt6.QtWidgets import (
     QApplication, QMainWindow, QWidget,
-    QHBoxLayout, QVBoxLayout
+    QHBoxLayout, QVBoxLayout, QScrollArea
 )
+from PyQt6.QtCore import Qt
 
 from merge.user_interface import MergePanel
 from bin.user_interface import BinningPanel
@@ -36,17 +37,23 @@ class MainWindow(QMainWindow):
 
         # left column: merge, bin, graph-settings
         left_panel = QWidget()
+        left_panel.setFixedWidth(325)
         left_layout = QVBoxLayout(left_panel)
         left_layout.addWidget(self.merge_panel, 1)
         left_layout.addWidget(self.binning_panel, 1)
-        left_layout.addWidget(self.graph_settings_panel, 10)
-        h_main.addWidget(left_panel, 1)
+        left_layout.addWidget(self.graph_settings_panel, 1)
+        scroll_area = QScrollArea()
+        scroll_area.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
+        scroll_area.setVerticalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)
+        scroll_area.setWidgetResizable(True)
+        scroll_area.setWidget(left_panel)
+        h_main.addWidget(scroll_area, 1)
 
         # right column: graph output
         right_panel = QWidget()
         right_layout = QVBoxLayout(right_panel)
         right_layout.addWidget(self.graph_display_panel)
-        h_main.addWidget(right_panel, 5)
+        h_main.addWidget(right_panel, 3)
 
 
 if __name__ == "__main__":
